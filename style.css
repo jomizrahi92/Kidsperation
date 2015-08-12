@@ -880,7 +880,7 @@ body.stretched #header.full-header .container {
 }
 
 #header.removetransparent{
-	background: #fff;
+	background: #333333;
 }
 
 /* ----------------------------------------------------------------
@@ -3270,7 +3270,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #FFF;
+	background-color: #609ECF;
 }
 
 #content p { line-height: 1.8; }
