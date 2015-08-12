@@ -18,12 +18,12 @@ if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactf
 
         $botcheck = $_POST['template-contactform-botcheck'];
 
-        $toemail = 'hatzalahcarnival@gmail.com'; // Your Email Address
-        $toname = 'Hatzalah Carnival'; // Your Name
+        $toemail = 'sari@kidsperation.com'; // Your Email Address
+        $toname = 'Sari - Kidsperation'; // Your Name
 
         if( $botcheck == '' ) {
 
-            $mail->SetFrom( 'admin@hatzalahcarnival.com' , $name );
+            $mail->SetFrom( 'admin@kidsperationinc.com' , $name );
             $mail->AddReplyTo( $email , $name );
             $mail->AddAddress( $toemail , $toname );
             $mail->Subject = $subject;
@@ -42,7 +42,7 @@ if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactf
             $sendEmail = $mail->Send();
 
             if( $sendEmail == true ):
-                echo 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+                echo 'We have <strong>successfully</strong> received your message and will get back to you as soon as possible.';
             else:
                 echo 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
             endif;
