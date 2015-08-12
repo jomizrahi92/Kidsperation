@@ -3096,7 +3096,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	padding: 0;
 	margin: 0;
 	line-height: 1;
-	font-weight: 600;
+	font-weight: bold;
 	letter-spacing: 1px;
 	color: #333;
 	font-size: 28px;
