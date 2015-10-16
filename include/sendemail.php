@@ -4,7 +4,7 @@ require_once('phpmailer/class.phpmailer.php');
 
 $mail = new PHPMailer();
 
-if( isset( $_POST['template-contactform-submit'] ) AND $_POST['template-contactform-submit'] == 'submit' ) {
+if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     if( $_POST['template-contactform-name'] != '' AND $_POST['template-contactform-email'] != '' AND $_POST['template-contactform-message'] != '' ) {
 
         $name = $_POST['template-contactform-name'];

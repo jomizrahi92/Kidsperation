@@ -96,6 +96,11 @@ h6 > span:not(.nocolor),
 .team-title span,
 .pricing-box.best-price .pricing-price,
 .btn-link,
+.pagination > li > a, .pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider { color: <?php echo $color; ?>; }
 
@@ -151,7 +156,10 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .dark .i-circled:hover,
 .dark ul.tab-nav.tab-nav2 li.ui-state-active a,
 .dark .tagcloud a:hover,
-.ei-slider-thumbs li.ei-slider-element { background-color: <?php echo $color; ?>; }
+.ei-slider-thumbs li.ei-slider-element,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus { background-color: <?php echo $color; ?>; }
 
 .bgcolor,
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover,

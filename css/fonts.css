@@ -12,7 +12,8 @@ small,
 .wp-caption,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
-.nav-tree ul ul a { font-family: 'Lato', sans-serif; }
+.nav-tree ul ul a,
+.font-body { font-family: 'Lato', sans-serif; }
 
 h1,
 h2,
@@ -31,7 +32,8 @@ h6,
 label,
 .nav-tree li a,
 .wedding-head .first-name,
-.wedding-head .last-name { font-family: 'Raleway', sans-serif; }
+.wedding-head .last-name,
+.font-primary { font-family: 'Raleway', sans-serif; }
 
 .entry-meta li,
 .entry-link span,
@@ -43,7 +45,8 @@ label,
 .team-title span,
 .before-heading,
 .wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Crete Round', serif; }
+.wedding-head .last-name span,
+.font-secondary { font-family: 'Crete Round', serif; }
 
 
 /* ----------------------------------------------------------------

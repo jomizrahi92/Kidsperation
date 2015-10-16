@@ -1103,6 +1103,13 @@ body #side-panel.dark #side-panel-trigger-close a {
 .dark .nav-tree li a { color: #BBB; }
 
 
+.dark #cookie-notification
+#cookie-notification.dark {
+	background-color: rgba(0,0,0,0.7);
+	color: #EEE;
+}
+
+
 /* Dark Scheme - Bootstrap
 -----------------------------------------------------------------*/
 
